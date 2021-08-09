@@ -1,7 +1,7 @@
 import React , {useState , useEffect} from 'react';
 import axios from 'axios';
 
-const row = ({title , fetchURL}) => {
+const Row = ({title , fetchURL}) => {
     const [movies, setMovies] = useState([])
 
     useEffect(() => {
@@ -22,4 +22,4 @@ const row = ({title , fetchURL}) => {
     )
 }
 
-export default row
+export default Row
