@@ -3,11 +3,13 @@ import './App.css';
 import Row from './Row';
 import requests from './Requests';
 import Banner from './Banner';
+import Nav from './Nav';
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello world</h1>
+    <div className="app">
+      <Nav />
+      <Banner />
       <Row title="Netflix Originals" fetchURL={requests.fetchNetflix} isLargerRow/>
       <Row title="Treding Now" fetchURL={requests.fetchTrendingMovies} />
       <Row title="Top Rated" fetchURL={requests.fetchTopRatedMovies} />

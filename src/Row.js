@@ -17,12 +17,10 @@ function Row({title , fetchURL , isLargerRow}){
         fetchData();
     }, [fetchURL])
 
-    console.table(movies);
-
     return (
         <div className="row">
             {/* title */}
-            <h1>{title}</h1>
+            <h1 className="row-title">{title}</h1>
             {/* container -> posters */}
             <div className="row-posters">
                 {movies.map(movie => (
