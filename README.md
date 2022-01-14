@@ -1,1 +1,5 @@
-This is a netflix - app clone built using react and some external API!
+# Netflix Clone
+
+this is a functional netflix clone built using React , Firebase and Stripe for payments , The Movie API fetches libraries for the home page
+
+![screenshot](netflix.png)
